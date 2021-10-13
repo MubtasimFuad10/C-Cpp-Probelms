@@ -33,3 +33,15 @@ int main()
 
 
 }
+
+
+//By  using ternary operator :
+int main()
+
+        {
+            int a, b, c, max;
+            cin >> a >> b >> c;
+            max=a>b ? a : b;
+            max=(max<c) ? c : max;
+            printf("maximum: %d", max);
+        }
