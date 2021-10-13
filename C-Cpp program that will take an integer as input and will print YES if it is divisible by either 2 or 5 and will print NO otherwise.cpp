@@ -33,17 +33,3 @@ int main()
 }
 
 
-///*** Using Logical NOT (!) operator
-int main()
-{
-    float marks;
-    cin >> marks;
-    if(!(marks<60)) //important
-    {
-        printf("Passed\n");
-    }
-    else
-    {
-        printf("Failed");
-    }
-}
