@@ -12,9 +12,7 @@
 
 #define lol long long int           //(positive,zero and negative)
 #define ulol unsigned long long int //(positive and zero)
-#define sonic                         \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL)
+#define sonic ios_base::sync_with_stdio(false);cin.tie(NULL)
 #define sf scanf
 #define pf printf
 #define PI acos(-1)
